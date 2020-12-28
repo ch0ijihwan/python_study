@@ -15,7 +15,7 @@ def init_list():#연결리스트를 초기화 하는 기능
 
     node_A.next = node_B
     node_B.next = node_C
-    node_D.next = node_D
+    node_C.next = node_D
 
 def print_list():
     global node_A
