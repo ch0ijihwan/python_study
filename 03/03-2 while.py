@@ -11,7 +11,7 @@ while 조건문 :
 # 예시 : 돌탑을 쌓는 프로 그램.
 stone = 1
 while stone <11:
-    print("돌멩이 하나 쌓아 올리고")
+    print("돌멩이 하나 올리고~")
     print("돌 탑 높이 %d" % stone)
     stone = stone + 1
 
