@@ -6,12 +6,6 @@ for i in range(11):
     f.write(data)  # data를 파일 객체 f에 써라. 
     #여기서 파일 객체 f는 newfile.txt 입니다.
 f.close() #열었던 파일을 닫음
-
-
-
-
-
-
 """
 이전 까지는 프로그램의 내부에서 단순 파일을 만들어 주거나, 값을 넣어주기만 했을 뿐이지, 외부의 파일안에 있는 데이터를 이용하지 못했다.
 
@@ -46,3 +40,20 @@ f = open("newfile.txt",'r')
 line = f.read()
 print(line)
 f.close()
+
+
+# r모드 사용해보기
+
+f = open("newfile.txt",'a')
+
+for i in range(11,20): # 11부터 19까지 대입
+    data = "%d \n" %i
+    f.write(data)
+
+f.close()
+
+f = open("newfile.txt",'r')
+line = f.read()
+print(line)
+f.close()
+
