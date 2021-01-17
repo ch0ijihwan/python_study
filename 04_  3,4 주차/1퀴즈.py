@@ -45,7 +45,7 @@ with open('hello.txt', 'w') as file:    # hello.txt 파일을 읽기 모드(r)�
 
 with open('hello.txt', 'r') as file:    # hello.txt 파일을 읽기 모드(r)로 열기
     line = file.readlines()
-    print(line[2])
+    print(line[-2]) #의문. 왜 -1이 아닐까.
 
 
 file.close()
