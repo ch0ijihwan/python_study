@@ -13,7 +13,15 @@ b = input("변수 b에 넣어줄 값을 입력해 주세요.")
 
 print(b)
 
+
+
+
+
+
+
 #print 함수 사용
+
+
 
 # 정수
 a = 100
@@ -37,4 +45,4 @@ print(dic)
 
 
 for i in range(50):
-    print(i, end= 'a')
+    print(i, end= ',')

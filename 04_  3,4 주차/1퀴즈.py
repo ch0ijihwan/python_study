@@ -30,7 +30,7 @@ with open('hello.txt', 'w') as file:    # hello.txt 파일을 읽기 모드(r)�
 
  #4번   
  with open('hello.txt', 'a') as file:    # hello.txt 파일을 읽기 모드(r)로 열기
-    data = "나이 : 24 \n "
+    data = "나이 : 24 \n"
     file.write(data)
  file.close()
 
@@ -45,7 +45,9 @@ with open('hello.txt', 'w') as file:    # hello.txt 파일을 읽기 모드(r)�
 
 with open('hello.txt', 'r') as file:    # hello.txt 파일을 읽기 모드(r)로 열기
     line = file.readlines()
-    print(line[-2]) #의문. 왜 -1이 아닐까.
+   
+    print(line[-1])
 
+ 
 
 file.close()
