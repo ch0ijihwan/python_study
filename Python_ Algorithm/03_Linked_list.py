@@ -43,8 +43,8 @@ def delete_node(del_data):
         pre_node = next_node
         next_node = next_node.next
 
-def insert_node(data):        
-//
+#def insert_node(data):        
+#//
 
 if __name__ =='__main__':
     init_list()
